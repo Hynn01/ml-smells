@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Tags on DSLinter - Linter for Machine Learning - Specific Code Smells</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on DSLinter - Linter for Machine Learning - Specific Code Smells</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>added</title>
+      <link>/tags/added/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/added/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>api-specifc</title>
+      <link>/tags/api-specifc/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/api-specifc/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>api-specific</title>
+      <link>/tags/api-specific/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/api-specific/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>consistency</title>
+      <link>/tags/consistency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/consistency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data prepaation</title>
+      <link>/tags/data-prepaation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data-prepaation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data preparation</title>
+      <link>/tags/data-preparation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data-preparation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>data segregation</title>
+      <link>/tags/data-segregation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/data-segregation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>efficiency</title>
+      <link>/tags/efficiency/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/efficiency/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>error-prone</title>
+      <link>/tags/error-prone/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/error-prone/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>general</title>
+      <link>/tags/general/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/general/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>generic</title>
+      <link>/tags/generic/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/generic/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>memory issue</title>
+      <link>/tags/memory-issue/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/memory-issue/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>model evaluation</title>
+      <link>/tags/model-evaluation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/model-evaluation/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>model training</title>
+      <link>/tags/model-training/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/model-training/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>modeling training</title>
+      <link>/tags/modeling-training/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/modeling-training/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>not sure</title>
+      <link>/tags/not-sure/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/not-sure/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>readability</title>
+      <link>/tags/readability/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/readability/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reproducibility</title>
+      <link>/tags/reproducibility/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/reproducibility/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>robustness</title>
+      <link>/tags/robustness/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/robustness/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
