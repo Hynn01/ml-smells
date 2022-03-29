@@ -12,6 +12,6 @@ File | Description
 
 ## Website
 
-![screenshot4codesmell](https://user-images.githubusercontent.com/26082974/151016131-4133c381-a34d-4688-a044-0b32b0b6a633.jpeg)
+<img width="1024" alt="website" src="https://user-images.githubusercontent.com/26082974/151133966-665d4604-bf12-41b3-8200-647a38d39b45.png">
 
 The website with all the smells will be published once the double-blind submission requirements are lifted.
