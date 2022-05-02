@@ -1,23 +1,25 @@
 ---
-title: "Training / Evaluation Mode Improper Toggling"
+title: "Gradients Not Cleared before Backward Propagation"
 disableShare: true
 # ShowReadingTime: true
 tags: ["api-specific", "model training", "error-prone"]
-weight: 21
-summary: "Call the training mode in the appropriate place in PyTorch code to avoid forgetting to toggle back the training mode after the inference step."
+weight: 20
+summary: "Use `optimizer.zero_grad()`, `loss_fn.backward()`, `optimizer.step()` together in order in PyTorch. Do not forget to use `optimizer.zero_grad()` before `loss_fn.backward()` to clear gradients."
 ---
 
 ### Description
 
 #### Context
-In PyTorch, calling `.eval()` means we are going into the evaluation mode and the `Dropout` layer will be deactivated.
+
+In PyTorch, `optimizer.zero_grad()` clears the old gradients from last step, `loss_fn.backward()` does the back propagation, and `optimizer.step()` performs weight update using the gradients.
 
 #### Problem
-If the training mode did not toggle back in time, the `Dropout` layer would not be used in some data training and thus affect the training result. 
+
+If `optimizer.zero_grad()` is not used before `loss_fn.backward()`, the gradients will be accumulated from all `loss_fn.backward()` calls and it will lead to the gradient explosion, which fails the training.
 
 #### Solution
-Developers should call the training mode in the right place to avoid forgetting to switch back to the training mode after the inference step.
 
+Developers should use `optimizer.zero_grad()`, `loss_fn.backward()`, `optimizer.step()` together in order and should not forget to use `optimizer.zero_grad()` before `loss_fn.backward()`.
 
 ### Type
 
@@ -96,14 +98,12 @@ optimizer = optim.SGD(net.parameters(), lr=0.001, momentum=0.9)
 for epoch in range(2):  # loop over the dataset multiple times
 
     running_loss = 0.0
--   net.train()
     for i, data in enumerate(trainloader, 0):
         # get the inputs; data is a list of [inputs, labels]
-+       net.train()        
         inputs, labels = data
 
-        # zero the parameter gradients
-        optimizer.zero_grad()
++       # zero the parameter gradients
++       optimizer.zero_grad()
 
         # forward + backward + optimize
         outputs = net(inputs)
@@ -116,9 +116,6 @@ for epoch in range(2):  # loop over the dataset multiple times
         if i % 2000 == 1999:    # print every 2000 mini-batches
             print(f'[{epoch + 1}, {i + 1:5d}] loss: {running_loss / 2000:.3f}')
             running_loss = 0.0
-            # validation
-            net.eval()
-            #...
 
 print('Finished Training')
 
@@ -140,6 +137,7 @@ with torch.no_grad():
         correct += (predicted == labels).sum().item()
 
 print(f'Accuracy of the network on the 10000 test images: {100 * correct // total} %')
+
 ```
 
 ### Source:

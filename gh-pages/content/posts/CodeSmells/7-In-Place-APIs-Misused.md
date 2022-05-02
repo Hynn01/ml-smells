@@ -3,7 +3,7 @@ title: "In-Place APIs Misused"
 disableShare: true
 # ShowReadingTime: true
 tags: ["generic", "data cleaning", "error-prone"]
-weight: 1
+weight: 7
 summary: "Remember to assign the result of an operation to a variable or set the in-place parameter in the API."
 # date: "2019-03-05"
 ---
@@ -35,17 +35,17 @@ Error-prone
 ### Example
 
 ```diff
-### NumPy
-import numpy as np
-zhats = [2, 3, 1, 0]
-- np.clip(zhats, -1, 1)
-+ zhats = np.clip(zhats, -1, 1)
-
 ### Pandas
 import pandas as pd
 df = pd.DataFrame([-1])
 - df.abs()
 + df = df.abs()
+
+### NumPy
+import numpy as np
+zhats = [2, 3, 1, 0]
+- np.clip(zhats, -1, 1)
++ zhats = np.clip(zhats, -1, 1)
 ```
 
 ### Source:

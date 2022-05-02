@@ -3,7 +3,7 @@ title: "Threshold-Dependent Validation"
 disableShare: true
 # ShowReadingTime: true
 tags: ["generic", "model evaluation", "robustness"]
-weight: 10
+weight: 22
 summary: "Use threshold-independent metrics instead of threshold-dependent ones in model evaluation."
 ---
 

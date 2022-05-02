@@ -3,7 +3,7 @@ title: "Pytorch Call Method Misused"
 disableShare: true
 # ShowReadingTime: true
 tags: ["api-specific", "model training", "robustness"]
-weight: 20
+weight: 19
 summary: "Use `self.net()` in PyTorch to forward the input to the network instead of `self.net.forward()`."
 ---
 

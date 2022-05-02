@@ -3,7 +3,7 @@ title: "Hyperparameter not Explicitly Set"
 disableShare: true
 # ShowReadingTime: true
 tags: ["generic", "model training", "error-prone","reproducibility"]
-weight: 4
+weight: 11
 summary: "Hyperparameters should be set explicitly."
 ---
 

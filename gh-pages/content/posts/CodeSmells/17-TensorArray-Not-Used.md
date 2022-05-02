@@ -2,7 +2,7 @@
 title: "TensorArray Not Used"
 disableShare: true
 tags: ["api-specific", "model training", "efficiency", "error-prone"]
-weight: 19
+weight: 17
 # ShowReadingTime: true	
 summary: "Use `tf.TensorArray()` in TensorFlow 2 if the value of the array will change in the loop."
 ---

@@ -3,7 +3,7 @@ title: "Randomness Uncontrolled"
 disableShare: true
 # ShowReadingTime: true
 tags: ["generic","model training","model evaluation","reproducibility"]
-weight: 8
+weight: 14
 summary: "Set random seed explicitly during the development process whenever a possible random procedure is involved in the application."
 ---
 

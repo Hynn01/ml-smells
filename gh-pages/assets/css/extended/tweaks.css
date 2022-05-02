@@ -3,7 +3,7 @@
   --nav-width: 1200px;
   --main-width: 1200px;
   /* Custom colors (light mode). */
-  --theme: #f2ebe1;
+  --theme: #f6e7d4;
   --code-bg: #ead7be;
   --secondary: #a59a89;
 }
@@ -26,5 +26,6 @@ li{
 }
 
 .post-entry {
-  padding: 12px;
+  padding: 20px;
+  background-color: #f8efe3;
 }

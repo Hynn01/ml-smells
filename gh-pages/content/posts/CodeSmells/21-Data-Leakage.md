@@ -3,7 +3,7 @@ title: "Data Leakage"
 disableShare: true
 # ShowReadingTime: true
 tags: ["generic", "model evaluation", "error-prone"]
-weight: 9
+weight: 21
 summary: "Use `Pipeline()` API in Scikit-Learn or check data segregation carefully when using other libraries to prevent data leakage."
 ---
 

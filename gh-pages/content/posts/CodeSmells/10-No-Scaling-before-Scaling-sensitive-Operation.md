@@ -3,7 +3,7 @@ title: "No Scaling Before Scaling-sensitive Operation"
 disableShare: true
 # ShowReadingTime: true
 tags: ["generic", "feature engineering", "error-prone"]
-weight: 3
+weight: 10
 summary: "Check whether feature scaling is added before scaling-sensitive operations."
 ---
 

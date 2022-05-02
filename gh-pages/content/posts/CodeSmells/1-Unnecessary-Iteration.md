@@ -3,7 +3,7 @@ title: "Unnecessary Iteration"
 disableShare: true
 # ShowReadingTime: true
 tags: ["generic","data cleaning","efficiency"]
-weight: 2
+weight: 1
 summary: "Avoid unnecessary iterations. Use vectorized solutions instead of loops."
 ---
 
@@ -54,7 +54,7 @@ x = tf.random.uniform([500, 10])
 ### Source:
 
 #### Paper 
-- MPA Haakman. 2020. Studying the Machine Learning Lifecycle and ImprovingCode Quality of Machine Learning Applic
+- MPA Haakman. 2020. Studying the Machine Learning Lifecycle and Improving Code Quality of Machine Learning Application
 
 #### Grey Literature
 

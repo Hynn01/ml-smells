@@ -1,9 +1,9 @@
 ---
-title: "Dataframe Coversion API Misused"
+title: "Dataframe Conversion API Misused"
 disableShare: true
 # ShowReadingTime: true
-tags: ["api-specific", "data cleaning", "consistency"]
-weight: 13
+tags: ["api-specific", "data cleaning", "consistency", "error-prone"]
+weight: 8
 summary: "Use `df.to_numpy()` in Pandas instead of `df.values()` for transform a `DataFrame` to a NumPy array."
 ---
 
@@ -29,7 +29,7 @@ Data Cleaning
 
 ### Effect
 
-Consistency
+Consistency & Error-prone
 
 ### Example
 

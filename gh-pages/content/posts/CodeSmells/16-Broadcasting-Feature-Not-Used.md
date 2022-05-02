@@ -1,8 +1,8 @@
 ---
 title: "Broadcasting Feature Not Used"
 disableShare: true
-tags: ["api-specific", "model training", "efficiency"]
-weight: 18
+tags: ["generic", "model training", "efficiency"]
+weight: 16
 # ShowReadingTime: true	
 summary: "Use the broadcasting feature in TensorFlow 2 to be more memory efficient. "
 ---
@@ -23,7 +23,7 @@ With broadcasting, it is more memory efficient. However, there is a trade-off in
 
 ### Type
 
-API-Specific
+Generic
 
 ### Existing Stage
 

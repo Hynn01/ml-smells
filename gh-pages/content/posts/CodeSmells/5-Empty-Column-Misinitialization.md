@@ -1,8 +1,8 @@
 ---
 title: "Empty Column Misinitialization"
 disableShare: true
-tags: ["api-specific", "data cleaning", "robustness"]
-weight: 16
+tags: ["generic", "data cleaning", "robustness"]
+weight: 5
 # ShowReadingTime: true	
 summary: "When a new empty column is needed in a `DataFrame` in Pandas, use the `NaN` value in Numpy instead of using zeros or empty strings."
 ---
@@ -13,13 +13,13 @@ summary: "When a new empty column is needed in a `DataFrame` in Pandas, use the 
 Developers may need a new empty column in `DataFrame`.
 
 #### Problem
-If they use zeros or empty strings to initialize a new empty column in Pandas, the ability to use methods such as `.isnull()` or `.notnull()` is retained.
+If they use zeros or empty strings to initialize a new empty column in Pandas, the ability to use methods such as `.isnull()` or `.notnull()` is retained. This might also happens to initializations in other data structure or libraries.
 
 #### Solution
 Use `NaN` value (e.g. `np.nan`) if a new empty column in a `DataFrame` is needed. Do not use "filler values" such as zeros or empty strings.
 
 ### Type
-API-Specific
+Generic
 
 ### Existing Stage
 Data Cleaning

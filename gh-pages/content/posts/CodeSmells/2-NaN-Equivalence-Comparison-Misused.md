@@ -2,25 +2,25 @@
 title: "NaN Equivalence Comparison Misused"
 disableShare: true
 # ShowReadingTime: true
-tags: ["api-specific", "data cleaning", "error-prone"]
-weight: 11
+tags: ["generic", "data cleaning", "error-prone"]
+weight: 2
 summary: "Be careful when using the `NaN` equivalence comparison in NumPy and Pandas."
 ---
 
 ### Description
 
 #### Context
-`NaN` equivalence comparison in NumPy and Pandas behaves differently from Python `None` equivalence comparison.
+`NaN` equivalence comparison behaves differently from `None` equivalence comparison.
 
 #### Problem
 While `None` == `None` evaluates to `True`, `np.nan` == `np.nan` evaluates to `False` in NumPy. As Pandas treats `None` like `np.nan` for simplicity and performance reasons, a comparison of `DataFrame` elements with `np.nan` always returns `False`. If the developer is not aware of this, it may lead to unintentional bugs in the code.
 
 #### Solution
-Developers need to be careful when using the `NaN` comparison in Numpy and Pandas.
+Developers need to be careful when using the `NaN` comparison.
 
 ### Type
 
-API-Specific
+Generic
 
 ### Existing Stage
 

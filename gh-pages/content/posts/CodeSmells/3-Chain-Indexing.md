@@ -2,7 +2,7 @@
 title: "Chain Indexing"
 disableShare: true
 tags: ["api-specific", "data cleaning", "error-prone", "efficiency"]
-weight: 12
+weight: 3
 # ShowReadingTime: true
 summary: "Avoid using chain indexing in Pandas."
 ---
@@ -10,10 +10,10 @@ summary: "Avoid using chain indexing in Pandas."
 ### Description
 
 #### Context
-In Pandas, `df["one"]["two"]` and `df.loc[:,("one","two")]` give the same result. `df["one"]["two"]` is called chain indexing.
+In Pandas, `df["one"]["two"]` and `df.loc[:,("one","two")]` give the same result. The `df["one"]["two"]` is called chain indexing.
 
 #### Problem
-Using chain indexing may cause performance issues as well as prone-to-bug code. For example, when using `df["one"]["two"]`, Pandas see this operation as two events: call `df["one"]` first and call `["two"]` based on the result the previous operation gets. On the contrary, `df.loc[:,("one","two")]` only perform a single call. In this way, the second approach can be significantly faster than the first one. Furthermore, assigning to the product of chain indexing has inherently unpredictable results. Since Pandas makes no guarantees on whether `df["one"]` will return a view or a copy, the assignment may fail.
+Using chain indexing may cause performance issues as well as prone-to-bug code. For example, when using `df["one"]["two"]`, Pandas sees this operation as two events: call `df["one"]` first and call `["two"]` based on the result the previous operation gets. On the contrary, `df.loc[:,("one","two")]` only perform a single call. In this way, the second approach can be significantly faster than the first one. Furthermore, assigning to the product of chain indexing has inherently unpredictable results. Since Pandas makes no guarantees on whether `df["one"]` will return a view or a copy, the assignment may fail.
 
 #### Solution
 Developers using Pandas should avoid using chain indexing.

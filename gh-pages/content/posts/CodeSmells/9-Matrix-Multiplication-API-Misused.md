@@ -3,7 +3,7 @@ title: "Matrix Multiplication API Misused"
 disableShare: true
 # ShowReadingTime: true
 tags: ["api-specific", "data cleaning", "readability"]
-weight: 14
+weight: 9
 summary: "When the multiply operation is performed on two-dimensional matrixes, use `np.matmul()` instead of `np.dot()` in NumPy for better semantics. "
 ---
 
