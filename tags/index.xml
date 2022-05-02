@@ -1,125 +1,125 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Tags on DSLinter - Linter for Machine Learning - Specific Code Smells</title>
-    <link>https://hynn01.github.io/dslinter/tags/</link>
-    <description>Recent content in Tags on DSLinter - Linter for Machine Learning - Specific Code Smells</description>
+    <title>Tags on Code Smells for Machine Learning Applications</title>
+    <link>https://hynn01.github.io/ml-smells/tags/</link>
+    <description>Recent content in Tags on Code Smells for Machine Learning Applications</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language><atom:link href="https://hynn01.github.io/dslinter/tags/index.xml" rel="self" type="application/rss+xml" />
+    <language>en-us</language><atom:link href="https://hynn01.github.io/ml-smells/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>api-specific</title>
-      <link>https://hynn01.github.io/dslinter/tags/api-specific/</link>
+      <link>https://hynn01.github.io/ml-smells/tags/api-specific/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hynn01.github.io/dslinter/tags/api-specific/</guid>
+      <guid>https://hynn01.github.io/ml-smells/tags/api-specific/</guid>
       <description></description>
     </item>
     
     <item>
       <title>consistency</title>
-      <link>https://hynn01.github.io/dslinter/tags/consistency/</link>
+      <link>https://hynn01.github.io/ml-smells/tags/consistency/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hynn01.github.io/dslinter/tags/consistency/</guid>
+      <guid>https://hynn01.github.io/ml-smells/tags/consistency/</guid>
       <description></description>
     </item>
     
     <item>
       <title>data cleaning</title>
-      <link>https://hynn01.github.io/dslinter/tags/data-cleaning/</link>
+      <link>https://hynn01.github.io/ml-smells/tags/data-cleaning/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hynn01.github.io/dslinter/tags/data-cleaning/</guid>
+      <guid>https://hynn01.github.io/ml-smells/tags/data-cleaning/</guid>
       <description></description>
     </item>
     
     <item>
       <title>efficiency</title>
-      <link>https://hynn01.github.io/dslinter/tags/efficiency/</link>
+      <link>https://hynn01.github.io/ml-smells/tags/efficiency/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hynn01.github.io/dslinter/tags/efficiency/</guid>
+      <guid>https://hynn01.github.io/ml-smells/tags/efficiency/</guid>
       <description></description>
     </item>
     
     <item>
       <title>error-prone</title>
-      <link>https://hynn01.github.io/dslinter/tags/error-prone/</link>
+      <link>https://hynn01.github.io/ml-smells/tags/error-prone/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hynn01.github.io/dslinter/tags/error-prone/</guid>
+      <guid>https://hynn01.github.io/ml-smells/tags/error-prone/</guid>
       <description></description>
     </item>
     
     <item>
       <title>feature engineering</title>
-      <link>https://hynn01.github.io/dslinter/tags/feature-engineering/</link>
+      <link>https://hynn01.github.io/ml-smells/tags/feature-engineering/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hynn01.github.io/dslinter/tags/feature-engineering/</guid>
+      <guid>https://hynn01.github.io/ml-smells/tags/feature-engineering/</guid>
       <description></description>
     </item>
     
     <item>
       <title>generic</title>
-      <link>https://hynn01.github.io/dslinter/tags/generic/</link>
+      <link>https://hynn01.github.io/ml-smells/tags/generic/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hynn01.github.io/dslinter/tags/generic/</guid>
+      <guid>https://hynn01.github.io/ml-smells/tags/generic/</guid>
       <description></description>
     </item>
     
     <item>
       <title>memory issue</title>
-      <link>https://hynn01.github.io/dslinter/tags/memory-issue/</link>
+      <link>https://hynn01.github.io/ml-smells/tags/memory-issue/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hynn01.github.io/dslinter/tags/memory-issue/</guid>
+      <guid>https://hynn01.github.io/ml-smells/tags/memory-issue/</guid>
       <description></description>
     </item>
     
     <item>
       <title>model evaluation</title>
-      <link>https://hynn01.github.io/dslinter/tags/model-evaluation/</link>
+      <link>https://hynn01.github.io/ml-smells/tags/model-evaluation/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hynn01.github.io/dslinter/tags/model-evaluation/</guid>
+      <guid>https://hynn01.github.io/ml-smells/tags/model-evaluation/</guid>
       <description></description>
     </item>
     
     <item>
       <title>model training</title>
-      <link>https://hynn01.github.io/dslinter/tags/model-training/</link>
+      <link>https://hynn01.github.io/ml-smells/tags/model-training/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hynn01.github.io/dslinter/tags/model-training/</guid>
+      <guid>https://hynn01.github.io/ml-smells/tags/model-training/</guid>
       <description></description>
     </item>
     
     <item>
       <title>readability</title>
-      <link>https://hynn01.github.io/dslinter/tags/readability/</link>
+      <link>https://hynn01.github.io/ml-smells/tags/readability/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hynn01.github.io/dslinter/tags/readability/</guid>
+      <guid>https://hynn01.github.io/ml-smells/tags/readability/</guid>
       <description></description>
     </item>
     
     <item>
       <title>reproducibility</title>
-      <link>https://hynn01.github.io/dslinter/tags/reproducibility/</link>
+      <link>https://hynn01.github.io/ml-smells/tags/reproducibility/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hynn01.github.io/dslinter/tags/reproducibility/</guid>
+      <guid>https://hynn01.github.io/ml-smells/tags/reproducibility/</guid>
       <description></description>
     </item>
     
     <item>
       <title>robustness</title>
-      <link>https://hynn01.github.io/dslinter/tags/robustness/</link>
+      <link>https://hynn01.github.io/ml-smells/tags/robustness/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://hynn01.github.io/dslinter/tags/robustness/</guid>
+      <guid>https://hynn01.github.io/ml-smells/tags/robustness/</guid>
       <description></description>
     </item>
     
