@@ -35,7 +35,6 @@ Error-prone & Reproducibility
 ```diff
 ### Scikit-Learn
 from sklearn.cluster import KMeans
-
 - kmeans = KMeans()
 + kmeans = KMeans(n_clusters=8, random_state=0)
 + # Or, ideally:
@@ -48,20 +47,9 @@ from sklearn.cluster import KMeans
 + algorithm='auto')
 
 ### PyTorch
-import torch
-import numpy as np
-from kmeans_pytorch import kmeans
-
-# data
-data_size, dims, num_clusters = 1000, 2, 3
-x = np.random.randn(data_size, dims) / 6
-x = torch.from_numpy(x)
-
-# kmeans
-- cluster_ids_x, cluster_centers = kmeans(X=x, num_clusters=num_clusters)
-+ cluster_ids_x, cluster_centers = kmeans(
-+     X=x, num_clusters=num_clusters, distance='euclidean', device=torch.device('cpu')
-+ )
+from torch.optim import SGD
+- optimizer = SGD()
++ optimizer = SGD(lr=0.01, momentum=0.9, weight_decay=0)
 ```
 
 ### Source:
