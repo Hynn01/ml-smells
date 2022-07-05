@@ -37,14 +37,6 @@ Error-prone & Reproducibility
 from sklearn.cluster import KMeans
 - kmeans = KMeans()
 + kmeans = KMeans(n_clusters=8, random_state=0)
-+ # Or, ideally:
-+ kmeans = KMeans(n_clusters=8,
-+ init='k-means++', n_init=10,
-+ max_iter=300, tol=0.0001,
-+ precompute_distances='auto',
-+ verbose=0, random_state=0,
-+ copy_x=True, n_jobs=1,
-+ algorithm='auto')
 
 ### PyTorch
 from torch.optim import SGD
